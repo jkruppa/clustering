@@ -2,7 +2,7 @@ library(shiny)
 
 
 shinyUI(fluidPage(
-    titlePanel("Visualisation of different normalization methods"),
+    titlePanel("Visualisation of different clustering methods"),
     sidebarLayout(
         ## sidebar panel
         sidebarPanel(

@@ -1,10 +1,25 @@
-# Example Shiny app
+# Visualisation of different clustering methods
 
 This is an example application for Shiny.
+
+# Installation
 
 ```R
 library(shiny)
 
-# Easiest way is to use runGitHub
 runGitHub("clustering", "jkruppa")
 ```
+
+# Dependencies
+The following R packages are needed for the Shiny app:
+
+```R
+install.packages("shiny")
+install.packages("ggplot2")
+install.packages("plyr")
+install.packages("dplyr")
+install.packages("e1071") 
+install.packages("mclust") 
+install.packages("broom") 
+```
+
