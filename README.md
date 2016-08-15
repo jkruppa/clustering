@@ -1,6 +1,6 @@
 # Visualisation of different clustering methods
 
-This is an example application for Shiny.
+![Screenshot](clustering.png)
 
 ## Dependencies
 The following R packages are needed for the Shiny app:
