@@ -2,15 +2,7 @@
 
 This is an example application for Shiny.
 
-# Installation
-
-```R
-library(shiny)
-
-runGitHub("clustering", "jkruppa")
-```
-
-# Dependencies
+## Dependencies
 The following R packages are needed for the Shiny app:
 
 ```R
@@ -22,4 +14,13 @@ install.packages("e1071")
 install.packages("mclust") 
 install.packages("broom") 
 ```
+
+## Installation
+
+```R
+library(shiny)
+
+runGitHub("clustering", "jkruppa")
+```
+
 
